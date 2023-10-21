@@ -1,0 +1,16 @@
+{
+  "name": "undp-viz-colors",
+  "version": "1.0.6",
+  "description": "JS color variables for visualizations for UNDP",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "undp-data",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}

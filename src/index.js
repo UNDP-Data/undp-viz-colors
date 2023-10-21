@@ -1,0 +1,106 @@
+"use strict";
+const UNDPColorModule = {
+  graphBackgroundColor: '#F7F7F7',
+  graphMainColor: '#006EB5',
+  graphGray: '#D4D6D8',
+  graphNoData: '#FFFFFF',
+
+  categoricalColors: {
+    colors: ['#006eb5', '#5DD4F0', '#02A38A', '#E78625', '#E0529E', '#FC6932', '#757AF0', '#A0C236', '#FBC412', '#746960'],
+    genderColors: {
+      male: '#02A38A',
+      female: '#757AF0', 
+    },
+    locationColors: {
+      urban: '#006eb5',
+      rural: '#5DD4F0', 
+    }
+  },
+
+  sequentialColors: {
+    negativeColorsx04: ['#F6B666', '#EB8033', '#D64513', '#A71C04'],
+    negativeColorsx05: ['#FBD68A', '#F39E4B', '#E16424', '#C12705', '#850E02'],
+    negativeColorsx06: ['#FFF4AC', '#F7BD6D', '#EC8234', '#D54211', '#A01903', '#650000'],
+    negativeColorsx07: ['#FFF4AC', '#F8C678', '#F29641', '#E16424', '#C92B06', '#961503', '#650000'],
+    negativeColorsx08: ['#FFF4AC', '#F9CD7F', '#F4A451', '#E97A30', '#D94C17', '#BB2505', '#8F1202', '#650000'],
+    negativeColorsx09: ['#FFF4AC', '#FAD285', '#F5AE5D', '#EE8938', '#E16424', '#D2390C', '#ad190d', '#891002', '#650000'],
+    negativeColorsx10: ['#FFF4AC', '#FBD68A', '#F6B666', '#F29641', '#E7752D', '#DB521A', '#C92B06', '#A71C04', '#850E02', '#650000'],
+
+    positiveColorsx04: ['#BADA81', '#7FC45F', '#58A85A', '#308C56'],
+    positiveColorsx05: ['#DDE797', '#9FD071', '#6CB65D', '#429858', '#187B54'],
+    positiveColorsx06: ['#FFF4AC', '#C1DD85', '#81C55F', '#56A75A', '#2C8956', '#006A51'],
+    positiveColorsx07: ['#FFF4AC', '#CBE18C', '#96CD6B', '#6CB65D', '#489D59', '#248455', '#006A51'],
+    positiveColorsx08: ['#FFF4AC', '#D3E491', '#A6D374', '#7BC05E', '#5CAB5B', '#3E9558', '#1F8054', '#006A51'],
+    positiveColorsx09: ['#FFF4AC', '#D8E694', '#B1D77C', '#88C862', '#6CB65D', '#51A35A', '#369057', '#1B7D54', '#006A51'],
+    positiveColorsx10: ['#FFF4AC', '#DDE797', '#BADA81', '#96CD6B', '#78BE5E', '#60AD5B', '#489D59', '#308C56', '#187B54', '#006A51'],
+    
+    neutralColorsx04: ['#FFF4AC', '#5FCDA1', '#0091A9', '#005396'],
+    neutralColorsx05: ['#FFF4AC', '#7BD4A3', '#00A5A1', '#006CB3', '#003F80'],
+    neutralColorsx06: ['#FFF4AC', '#98DBA5', '#16BB9C', '#008FA9', '#0063A8', '#003F80'],
+    neutralColorsx07: ['#FFF4AC', '#AADFA6', '#47C79F', '#00A5A1', '#007FAF', '#005DA1', '#003F80'],
+    neutralColorsx08: ['#FFF4AC', '#B7E2A7', '#66CFA2', '#00B59B', '#0095A7', '#0074B3', '#00589D', '#003F80'],
+    neutralColorsx09: ['#FFF4AC', '#C1E5A8', '#7CD4A3', '#29C09D', '#00A5A1', '#0089AB', '#006CB3', '#005599', '#003F80'],
+    neutralColorsx10: ['#FFF4AC', '#C8E7A8', '#8CD8A4', '#47C79F', '#00B29C', '#0099A5', '#007FAF', '#0067AD', '#005396', '#003F80'],
+  },
+
+  divergentColors: {    
+    colorsx04: ['#a01903', '#f07d77', '#6eabf0', '#0063a8'],
+    colorsx05: ['#7f1a0b', '#eb7165', '#f5f5f5', '#4a98ef', '#003f80'],
+    colorsx06: ['#7f1a0b', '#dd3e2e', '#efa199', '#85b8f1', '#0774ec', '#003f80'],
+    colorsx07: ['#7f1a0b', '#dd3e2e', '#efa199', '#f5f5f5', '#85b8f1', '#0774ec', '#003f80'],
+    colorsx08: ['#7f1a0b', '#c43425', '#eb7165', '#f0b7b1', '#a2c8f2', '#4a98ef', '#0065d4', '#003f80'],
+    colorsx09: ['#7f1a0b', '#c43425', '#eb7165', '#f0b7b1', '#f5f5f5', '#a2c8f2', '#4a98ef', '#0065d4', '#003f80'],
+    colorsx10: ['#7f1a0b', '#b62f1f', '#e94e3f', '#ee8e85', '#f1c3bf', '#b2d1f3', '#6eacf0', '#2383ed', '#005dc3', '#003f80'],
+    colorsx11: ['#7f1a0b', '#b62f1f', '#e94e3f', '#ee8e85', '#f1c3bf', '#f5f5f5', '#b2d1f3', '#6eacf0', '#2383ed', '#005dc3', '#003f80'],
+ },
+
+  bivariateColors: {
+    colors04x04:[
+      ['#e5e5e5', '#BAE7F6', '#7FDCF9', '#41D0FC'],
+      ['#F6C5D4', '#BFBEDD', '#88B8E5', '#57B2ED'],
+      ['#F99FBA', '#C89BC6', '#9697D3', '#6494DF'],
+      ['#F782A5', '#D180B3', '#9F7DC5', '#727AD4'],
+    ],
+    colors05x04:[
+      ['#e5e5e5', '#BAE7F6', '#7FDCF9', '#41D0FC'],
+      ['#F6C5D4', '#BFBEDD', '#88B8E5', '#57B2ED'],
+      ['#F99FBA', '#C89BC6', '#9697D3', '#6494DF'],
+      ['#F782A5', '#D180B3', '#9F7DC5', '#727AD4'],
+      ['#F4618D', '#D2619F', '#A961B3', '#8061C8'],
+    ],
+    colors04x05:[
+      ['#e5e5e5', '#BAE7F6', '#7FDCF9', '#41D0FC', '#0BC6FF'],
+      ['#F6C5D4', '#BFBEDD', '#88B8E5', '#57B2ED', '#21ABF5'],
+      ['#F99FBA', '#C89BC6', '#9697D3', '#6494DF', '#3690EB'],
+      ['#F782A5', '#D180B3', '#9F7DC5', '#727AD4', '#4978E3'],    
+    ],
+    colors05x05:[
+      ['#e5e5e5', '#BAE7F6', '#7FDCF9', '#41D0FC', '#0BC6FF'],
+      ['#F6C5D4', '#BFBEDD', '#88B8E5', '#57B2ED', '#21ABF5'],
+      ['#F99FBA', '#C89BC6', '#9697D3', '#6494DF', '#3690EB'],
+      ['#F782A5', '#D180B3', '#9F7DC5', '#727AD4', '#4978E3'],
+      ['#F4618D', '#D2619F', '#A961B3', '#8061C8', '#5C61DA'],
+    ],
+  },
+
+  sdgColors: {
+    sdg1: '#E5243B',
+    sdg2: '#DDA63A',
+    sdg3: '#4C9F38',
+    sdg4: '#C5192D',
+    sdg5: '#FF3A21',
+    sdg6: '#26BDE2',
+    sdg7: '#FCC30B',
+    sdg8: '#A21942',
+    sdg9: '#FD6925',
+    sdg10: '#DD1367',
+    sdg11: '#FD9D24',
+    sdg12: '#BF8B2E',
+    sdg13: '#3F7E44',
+    sdg14: '#0A97D9',
+    sdg15: '#56C02B',
+    sdg16: '#00689D',
+    sdg17: '#19486A',
+  }
+};
+module.exports = UNDPColorModule;
