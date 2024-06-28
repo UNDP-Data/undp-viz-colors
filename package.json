@@ -1,13 +1,22 @@
 {
-  "name": "undp-viz-colors",
-  "version": "1.0.7",
+  "name": "@undp-data/undp-viz-colors",
+  "version": "1.0.1",
   "description": "JS color variables for visualizations for UNDP",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "undp-data",
+  "author": "United Nations Development Programme",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.13.0",
