@@ -4,7 +4,6 @@ const UNDPColorModule = {
   graphMainColor: '#006EB5',
   graphGray: '#D4D6D8',
   graphNoData: '#FFFFFF',
-
   categoricalColors: {
     colors: ['#006eb5', '#5DD4F0', '#02A38A', '#E78625', '#E0529E', '#757AF0', '#A0C236', '#FBC412', '#BF8B2E', '#A9B1B7'],
     genderColors: {
