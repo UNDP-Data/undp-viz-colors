@@ -4,6 +4,43 @@ declare const UNDPColorModule: {
   graphGray: string;
   graphNoData: string;
 
+  grays: {
+    white: string;
+    'gray-100': string;
+    'gray-200': string;
+    'gray-300': string;
+    'gray-400': string;
+    'gray-500': string;
+    'gray-600': string;
+    'gray-700': string;
+    black: string;
+  };
+
+  primaryColors: {
+    'blue-100': string;
+    'blue-200': string;
+    'blue-300': string;
+    'blue-400': string;
+    'blue-500': string;
+    'blue-600': string;
+    'blue-700': string;
+  };
+
+  alerts: {
+    lightYellow: string;
+    yellow: string;
+    darkYellow: string;
+    lightRed: string;
+    red: string;
+    darkRed: string;
+    lightGreen: string;
+    green: string;
+    darkGreen: string;
+    lightAzure: string;
+    azure: string;
+    darkAzure: string;
+  };
+
   categoricalColors: {
     colors: [string, string, string, string, string, string, string, string, string, string];
     genderColors: {
@@ -54,6 +91,11 @@ declare const UNDPColorModule: {
   };
 
   bivariateColors: {
+    colors03x03:[
+      [string, string, string],
+      [string, string, string],
+      [string, string, string]
+    ];
     colors04x04:[
       [string, string, string, string],
       [string, string, string, string],
